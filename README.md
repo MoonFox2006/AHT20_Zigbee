@@ -1,8 +1,9 @@
 # AHT20_Zigbee
 "Творческая" адаптация примера из дурины спящего зигби датчика температуры, влажности и давления AHT20/BMP280 для ESP32-C6
 
-<img width="340" height="548" alt="image" src="https://github.com/user-attachments/assets/57f345a0-81f8-4030-8858-0461a935af02" />
 Настройки платы в дурине
+
+<img width="340" height="548" alt="image" src="https://github.com/user-attachments/assets/57f345a0-81f8-4030-8858-0461a935af02" />
 
 Датчик AHT20/BMP280 подключен к IO6/IO7 (SDA/SCL).
 Необязательный светодиод через токоограничивающий резистр катодом подключен к IO8.
