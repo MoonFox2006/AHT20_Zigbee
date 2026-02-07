@@ -26,7 +26,7 @@
 #define HUM_TOLERANCE   50 // 0.5%
 #define PRESS_TOLERANCE 5 // 5 hPa
 
-#define REPORT_PERIOD   10 // 10 min.
+#define REPORT_PERIOD   (10 - 1) // 10 min.
 
 #define LED_PIN   8 // LED pin (may be undefined)
 #ifdef LED_PIN
@@ -410,3 +410,4 @@ void loop() {
   }
   delay(100);
 }
+
